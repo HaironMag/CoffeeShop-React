@@ -1,0 +1,10 @@
+export const Coffee = () => <span>☕</span>;
+export const User = () => <span>👤</span>;
+export const LogOut = () => <span>🚪</span>;
+export const LogIn = () => <span>🔑</span>;
+export const UserPlus = () => <span>➕</span>;
+export const MapPin = () => <span>📍</span>;
+export const Phone = () => <span>📞</span>;
+export const Mail = () => <span>✉️</span>;
+export const Clock = () => <span>⏰</span>;
+export const Telegram = () => <span>📱</span>;

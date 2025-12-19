@@ -1,0 +1,16 @@
+@echo off
+echo Запуск проекта Coffee Shop...
+
+echo 1. Запуск Laravel сервера...
+start cmd /k "cd /d [ПУТЬ_К_LARAVEL_ПРОЕКТУ] && php artisan serve"
+
+echo 2. Запуск React сервера...
+start cmd /k "cd /d [ПУТЬ_К_REACT_ПРОЕКТУ] && npm run dev"
+
+echo 3. Инициализация базы данных...
+cd /d [ПУТЬ_К_LARAVEL_ПРОЕКТУ]
+php setup_coffee.php
+
+echo Проект запускается...
+echo Laravel: http://localhost:8000
+echo React: http://localhost:3000
